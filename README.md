@@ -1,6 +1,8 @@
 Some Tips
 
-1 bench init front_deve
+1
+```bash
+bench init front_deve
 
 2 bench set-config -g developer_mode 1
 3 create  new-app wf
