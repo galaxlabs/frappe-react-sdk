@@ -3,9 +3,15 @@ Some Tips
 1
 ```bash
 bench init front_deve
-
-2 bench set-config -g developer_mode 1
-3 create  new-app wf
+```
+2
+```bash
+bench set-config -g developer_mode 1
+```
+3
+```bash
+create  new-app wf
+```
 4 bench get-app https://github.com/NagariaHussain/doppio
 5 bench get-app https://github.com/The-Commit-Company/frappe-types
 6 bench new-site wf
