@@ -8,24 +8,44 @@ bench init front_deve
 ```bash
 bench set-config -g developer_mode 1
 ```
-3
+3   for example my-app name is wf
 ```bash
 create  new-app wf
 ```
-4 bench get-app https://github.com/NagariaHussain/doppio
-5 bench get-app https://github.com/The-Commit-Company/frappe-types
-6 bench new-site wf
-8 bench use wf
-7 bench start
 
-8 bench --site wf install-app wf
+4 get the app from github link or just copy
+```bash
+bench get-app https://github.com/NagariaHussain/doppio
+```
 
+5
+```bash
+bench get-app https://github.com/The-Commit-Company/frappe-types
+```
+6 create a site 
+
+```bash
+bench new-site wf.test
+```
+7
+```bash
+bench use wf
+```
+7 
+```bash
+bench start
+```
+8 install yor custom app
+```bash
+bench install-app wf
+```
 
 Aftre Setup Site 
-
+```bash
 bench add-spa
-
+```
  "aftre this Command
+
 Ask some  Questions 
 1 Deshboard name  you can set it to related your App  or any other Name
 2 App Name  :  wf
@@ -41,18 +61,12 @@ common_site_config.json
 "allow_cors"; "*",
 "ignore_csrf" 1
 
+```bash
 bench install-app frappe_types
-
+```
 
 
 and another methode you can use boiler plate starter  kit with frappeui and tailwindcss + vue with doppio
-
-
-
-
-
-
-
 
 # frappe-react-sdk
 
